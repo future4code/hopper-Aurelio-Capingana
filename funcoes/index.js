@@ -136,4 +136,3 @@ console.log(
     multiplicar(usuarioPrimeiro, usuarioSegundo),
 
     dividir(usuarioPrimeiro, usuarioSegundo),
-)
