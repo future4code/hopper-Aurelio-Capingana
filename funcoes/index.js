@@ -135,4 +135,16 @@ console.log(
 ,
     multiplicar(usuarioPrimeiro, usuarioSegundo),
 
+<<<<<<< HEAD
     dividir(usuarioPrimeiro, usuarioSegundo),
+<<<<<<< HEAD
+)
+=======
+)
+
+
+// outros não fui a tempo de os fazer!!!
+>>>>>>> 836ac7f68d7ea8651f221ac26fee34ada99f24d9
+=======
+    dividir(usuarioPrimeiro, usuarioSegundo),
+>>>>>>> 6f1d9b9a463499915728e96c8e479456182ce744
