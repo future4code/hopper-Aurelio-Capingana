@@ -1,0 +1,21 @@
+Passo 1: Ter atenção no Enunciado ;
+Lê o Enunciado de ponta a ponta duas ou mais vezes afim de entender o que ele quer que a gente faça 
+
+
+Passo 2: Retirar informações Relevantes;
+Depois de entender o Enunciado, marcas as informações certas para o projeto, isso é, o que temos de fazer para fazer 
+
+Passo 3: Pensar Entradas e Saidas;
+Com uma ideia certa, pensar em como fazer, Entrada e saida, afim de atender o que é pedido no Enunciado
+
+Passo 4: Esquema visual;
+Melhor forma de não se perder é fazer um esquema manual para seguir sempre que puder
+
+Passo 5: Código feio;
+Tirando a ideia do papel cria um código afim de ver,  o primeiros passos do projeto, para ser melhorado 
+
+Passo 6: Testar força Bruta;
+fazer o projeto feio rodar, dar o sabor de uma caminho andando pra concluir o projeto desejado 
+
+Passo 7:Refatorar.
+Fazer do projeto feio, um projeto mais eficaz, com menor linha de código possivel
