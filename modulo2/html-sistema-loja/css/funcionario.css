@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+}
+.conteudo{
+    width: 350px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.568);
+    font-size: 20px;
+}
+p{
+    margin-bottom: 10px;
+}
+div#lista{
+    /* width: 350px; */
+    text-align: center;
+    list-style: inside;
+}
+div#lista li{
+    border-bottom: 1px solid var(--cor1) ;
+}
+ol li:nth-child(even){
+    background-color: var(--cor3);
+}
