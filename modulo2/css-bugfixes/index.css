@@ -124,6 +124,10 @@ td img{
     margin-top: 20px;
     height: 100px;
 }
+.container-do-search img{
+    background-color: #fff;
+    width: 20px;
+}
 
 
 #back-button {
