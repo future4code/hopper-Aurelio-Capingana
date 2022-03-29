@@ -124,6 +124,12 @@ td img{
     margin-top: 20px;
     height: 100px;
 }
+.container-do-search input{
+    border: none
+}
+.container-do-search input{
+    border-bottom: 2px solid black
+}
 .container-do-search img{
     background-color: #fff;
     width: 20px;
