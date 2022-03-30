@@ -17,7 +17,7 @@ h2 {
 }
 
 input {
-    height: 20px;
+    height: 30px;
     width: 500px;
 }
 
@@ -48,6 +48,7 @@ div img {
 
 .botao-amarelo:hover {
     background-color: #c44f00;
+    cursor: pointer;
 }
 
 .container {
@@ -78,6 +79,12 @@ div img {
 
 #container-de-descricao>ol {
     padding: 15px 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#container-de-descricao>h3{
+    font-variant: small-caps;
+    margin-top: 50px;
 }
 
 #container-para-comprar {
@@ -125,18 +132,27 @@ td img{
 .container-do-search {
     margin-top: 20px;
     height: 100px;
+    padding: 10px;
 }
 .container-do-search input{
-    border: none
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid black;
 }
-.container-do-search input{
-    border-bottom: 2px solid black
+.container-do-search input:hover{
+    background-color: rgba(204, 204, 204, 0.479);
+    color: #000;
+    cursor: pointer;
 }
 .container-do-search img{
-    background-color: #fff;
+    background-color: #FFF;
     width: 20px;
 }
-
+#volta button:hover{
+    cursor: pointer;
+    background-color: #fe7e02;
+}
 
 td button {
     background-color: white;
@@ -152,4 +168,5 @@ td button {
 td button:hover {
     background-color: #635a3d;
     color: #fff;
+    cursor: pointer;
 }
