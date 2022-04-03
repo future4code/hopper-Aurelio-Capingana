@@ -104,7 +104,13 @@ header{
 }
 .card-text a{
     color: var(--cor3);
-    cursor: pointer;
+}
+.card-wrapper p{
+    font-size: 0;
+    font-weight: bold;
+    visibility: visible;
+    opacity: 0;
+    text-transform: uppercase;
 }
 .rodape,
 .rede-socias{

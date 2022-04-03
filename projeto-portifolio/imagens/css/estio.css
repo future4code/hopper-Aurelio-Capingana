@@ -32,7 +32,7 @@ body{
     padding: 0 100px;
 }
 h1{
-    text-transform: uppercase;
+    font-variant: small-caps;
     letter-spacing: 4px;
     font-size: 2em;
 }
@@ -46,7 +46,7 @@ h2{
     display: flex;
 }
 .social-media a,
-.menu-itens ul a{
+.menu-itens a{
   text-decoration: none;  
   padding: 0.5em 1em;
   border:  5px solid;
