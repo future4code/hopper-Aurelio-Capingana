@@ -105,7 +105,7 @@ header.cabecalho .busca-txt{
 }
 
 
-@media screen and (max-device-width : 320px) {
+@media  (max-width : 720px) {
     header.cabecalho h1{
         font-size: 20px;
         text-align: center;
