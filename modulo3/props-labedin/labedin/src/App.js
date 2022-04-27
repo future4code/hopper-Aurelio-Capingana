@@ -33,7 +33,7 @@ function App() {
         <CardPequeno 
           imagem="email.png" 
           nome="Email:" 
-          descricao="aurelio,capingana01@gmail.com"
+          descricao="aurelio.capingana01@gmail.com"
         />
       </div>
 
