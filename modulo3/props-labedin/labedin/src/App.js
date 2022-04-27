@@ -25,7 +25,7 @@ function App() {
         <CardPequeno 
           imagem="celular.png" 
           nome="Telefone:" 
-          descricao="(35) 99856-0346"
+          descricao="(41) 996769560"
         />
       </div>
 
