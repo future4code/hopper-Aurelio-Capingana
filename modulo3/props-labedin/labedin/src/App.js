@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import CardGrande from './components/CardGrande/CardGrande';
+import CardPequeno from './components/CardPequeno/CardPequeno';
 import ImagemButton from './components/ImagemButton/ImagemButton';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
         <CardGrande 
           imagem="Aurelio.png" 
           nome="Aurélio Capingana" 
-          descricao="Oi, eu sou o Aurélio Capingana. Sou o Angolano alunos da Labenu. Adoro escrever poesias, jogar video Games e programar, na sexta-feira procuro no final do dia relaxar vendo uma serie e repor as energias perdidas."
+          descricao="Olá, me chamem de Aurélio Capingana. Sou Angolano de 29 anos de idade,alunos da Labenu. Adoro escrever poesias, jogar video Games e programar, na sexta-feira procuro no final do dia relaxar vendo uma serie e repor as energias perdidas."
         />
         
         <ImagemButton 
@@ -20,22 +21,42 @@ function App() {
         />
       </div>
 
-      <div className="endereco">
-        imagem
+      <div className="page-section-container-small">
+        <CardPequeno 
+          imagem="celular.png" 
+          nome="Telefone:" 
+          descricao="(35) 99856-0346"
+        />
+      </div>
+
+      <div className="page-section-container-small">
+        <CardPequeno 
+          imagem="email.png" 
+          nome="Email:" 
+          descricao="aurelio,capingana01@gmail.com"
+        />
+      </div>
+
+      <div className="page-section-container-small">
+        <CardPequeno 
+          imagem="endereco.png" 
+          nome="Endereço:" 
+          descricao="Rua Greci Lautert Prates, 191 Caxias do Sul - RS"
+        />
       </div>
 
       <div className="page-section-container">
         <h2>Experiências profissionais</h2>
         <CardGrande 
-          imagem="https://s3.amazonaws.com/future4.com.br/static/headf4-c492117ca2373dc85ca81bf715b3dc2a.png" 
-          nome="Labenu" 
-          descricao="Formando desenvolvedores para o mercado de trabalho!" 
+          imagem="job.png" 
+          nome="Coop Agro Nova Aliança" 
+          descricao="A cinco meses trabalho na cooperativa agroindustrial Nova Aliança como operador de maquina!" 
         />
         
         <CardGrande 
-          imagem="https://imagens.canaltech.com.br/empresas/4418.400.jpg" 
-          nome="NASA" 
-          descricao="Apontando defeitos." 
+          imagem="job.png" 
+          nome="Educação" 
+          descricao="Trabalhei por dois anos como professor na escola primaria Marria Mazarello, bem como na escola Dom Bosco." 
         />
       </div>
 
