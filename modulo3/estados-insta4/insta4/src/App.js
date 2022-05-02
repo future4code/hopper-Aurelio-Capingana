@@ -18,6 +18,18 @@ class App extends React.Component {
           fotoUsuario={'https://picsum.photos/50/50'}
           fotoPost={'https://picsum.photos/200/150'}
         />
+
+        <Post
+          nomeUsuario={'Aurélio'}
+          fotoUsuario={'Aurelio.png'}
+          fotoPost={'torre.jpg'}
+        />
+
+        <Post
+          nomeUsuario={'Labenu'}
+          fotoUsuario={'labenu1.jpg'}
+          fotoPost={'labenu.png'}
+        />
       </MainContainer>
     );
   }
