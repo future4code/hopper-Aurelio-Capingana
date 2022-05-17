@@ -34,7 +34,7 @@ class App extends React.Component {
       ],
 
       inputValue: '',
-      filtro: 'pendentes'
+      filtro: ''
     }
 
   componentDidUpdate() {
@@ -76,6 +76,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>Lista de tarefas</h1>
+        
         <InputsContainer>
           <input value={this.state.inputValue} onChange={this.onChangeInput}/>
           <button onClick={this.criaTarefa}>Adicionar</button>
