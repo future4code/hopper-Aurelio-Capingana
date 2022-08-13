@@ -1,31 +1,74 @@
-import React from "react";
-import Criar from "./componets/Criar";
-import Lista from "./componets/Lista";
+import React, { useEffect, useState } from "react";
+import api from "./config/configApi"
 
-class labefy extends React.Component{
 
-  state = {
-    tela : "principal"
+function App(){
+
+  const [nome, setnome] = useState("")
+  const [resultado, setResultado] = useState([])
+
+  useEffect(() => {
+    handloCreatePlayList()
+  }, [])
+
+  const handloInputValue = (e) =>{
+    setnome(e.target.value)
   }
 
-  mudarDeTela = () => {
-    this.setState({
-      tela : this.state.tela === "principal" ? "palylist" : "princiapl"
-    })
-  }
+  const handloCreatePlayList = async () =>{
+    const body = {
+      name : nome
+    }
+    try{
+      await api.post("/", body)
+      alert("criada com sucesso")
+    }
+    catch(error){
+      if(error.response.data.message){
+        return alert(error.response.data.message)
+      }
+      }
+      finally{
+        setnome("")
+      }
+      
+    }
 
-  render(){
+    const handloGetAllPlayList = async () => {
+      try{
+        const response = await api.get("/")
+        setResultado(response.data.result.list)
+      }
+      catch(error){
 
-    return(
+      }
+    }
 
-      <div>
-          {
-            this.state.tela === "principal" ? <Criar/> : <Lista/>
-          }
-      </div>
+    const handloDeletePalyList = async(id) => {
+      try{
+        await api.delete(`/${id}`)
+        alert("Deletado com sucesso")
+  
+      }
+      catch(error){
 
-    )
-  }
+      }
+    }
+  
+  return(
+    <>
+       <input placeholder="nome playlist" value={nome} onChange={handloInputValue} />
+       <button>Enviar</button>
 
+       {resultado.map(() => {
+         return(
+           <div key={result.id}>
+             <p>{result.name}</p>
+             <button onClick={} >Deletar</button>
+           </div>
+         )
+       })}
+    </>
+  )
 }
-export default labefy
+export default App
