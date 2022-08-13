@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@300;700&display=swap');
+
+:root{
+    --font:'Spline Sans Mono', monospace;
+
+    --cor1:#03A678;
+    --cor2:#02735E;
+    --cor3:#014040;
+    --cor4:#F27405;
+    --cor5:#731702;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../assets/tela.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom top;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    /* border: var(--cor5); */
+    border: 2px solid var(--cor1);
+    width: 500px;
+    padding: 15px;
+    /* display: flex; */
+    /* flex-direction: column;   */
+}
+.titulo{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--cor3);
+    margin-top: 5px;
+    font-weight: 700;
+    font-family: var(--font);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.603);
+}
+.btn{
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: space-between;
+}
+button{
+    display: flex;
+    border: 2px solid var(--cor1);
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    background-color: var(--cor3);
+    border-radius: 50px;
+    text-transform: uppercase;
+    box-shadow: inset 6px 6px 4px rgba(0, 0, 0, 0.199);
+}
+button:hover{
+    background-color: var(--cor4);
+}
